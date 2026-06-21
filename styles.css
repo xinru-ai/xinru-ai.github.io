@@ -1,14 +1,14 @@
 :root {
-  --bg: #08090c;
-  --bg-soft: #101216;
-  --panel: rgba(17, 20, 27, 0.92);
-  --panel-strong: rgba(24, 28, 36, 0.96);
-  --panel-muted: rgba(35, 41, 52, 0.74);
-  --border: rgba(148, 163, 184, 0.16);
-  --border-strong: rgba(96, 165, 250, 0.22);
-  --text: #e5edf8;
-  --text-soft: #9fb0c8;
-  --text-faint: #6f819e;
+  --bg: #f7f9fc;
+  --bg-soft: #eef3f9;
+  --panel: rgba(255, 255, 255, 0.9);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --panel-muted: rgba(232, 239, 248, 0.9);
+  --border: rgba(148, 163, 184, 0.24);
+  --border-strong: rgba(59, 130, 246, 0.26);
+  --text: #122033;
+  --text-soft: #4f6480;
+  --text-faint: #73859c;
   --primary: #5ba2ff;
   --primary-strong: #3d8dff;
   --accent: #42d6b6;
@@ -37,9 +37,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
   line-height: 1.65;
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.05), transparent 24%),
-    radial-gradient(circle at 85% 10%, rgba(91, 162, 255, 0.08), transparent 24%),
-    linear-gradient(180deg, #050608 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, rgba(91, 162, 255, 0.14), transparent 24%),
+    radial-gradient(circle at 85% 10%, rgba(66, 214, 182, 0.1), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
 }
 
 body::before {
@@ -52,6 +52,32 @@ body::before {
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 30px 30px;
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45), transparent 90%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #08090c;
+    --bg-soft: #101216;
+    --panel: rgba(17, 20, 27, 0.92);
+    --panel-strong: rgba(24, 28, 36, 0.96);
+    --panel-muted: rgba(35, 41, 52, 0.74);
+    --border: rgba(148, 163, 184, 0.16);
+    --border-strong: rgba(96, 165, 250, 0.22);
+    --text: #e5edf8;
+    --text-soft: #9fb0c8;
+    --text-faint: #6f819e;
+  }
+
+  body {
+    background:
+      radial-gradient(circle at top left, rgba(255, 255, 255, 0.05), transparent 24%),
+      radial-gradient(circle at 85% 10%, rgba(91, 162, 255, 0.08), transparent 24%),
+      linear-gradient(180deg, #050608 0%, var(--bg) 100%);
+  }
+
+  .site-header {
+    background: rgba(11, 18, 32, 0.78);
+  }
 }
 
 a {
@@ -82,7 +108,7 @@ code {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(11, 18, 32, 0.78);
+  background: rgba(255, 255, 255, 0.72);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--border);
 }
@@ -100,7 +126,6 @@ code {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   font-weight: 700;
   flex: 0 0 auto;
   overflow: hidden;
