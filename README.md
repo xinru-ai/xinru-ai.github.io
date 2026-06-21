@@ -19,3 +19,54 @@ Official GitHub Pages site for Xinru.
 
 - `心如-测试版-5.3.3-mac-arm.dmg`
 - <https://www.icloud.com/attachment/?u=https%3A%2F%2Fcvws.icloud-content.com%2FB%2FASng-L2eNyKnw8jiQTneyUN2VK-vAS7RJMVm1ZrgA3Dy2V1zsOaK3PZ1%2F%24%7Bf%7D%3Fo%3DAlyQaE9ZvYNFL9AesA0phccjxUvnjLHu7vDZWurzL5My%26v%3D1%26x%3D3%26a%3DCAogesoUhsgWWpK1t_ZBm9EAZemkwT0NP89JuB6GHFuDmbsSeBDwnvCs7jMY8K7rgPgzIgEAKgkC6AMA_2j10x1SBHZUr69aBIrc9nVqJuU9lBeh-OTMOgsKNYkD76LCGZSYwm5_xtZfVj5VC6E6uJZsrzThciboEGucASPCC8LxtpYS9p3sTaQZPYQ86V6dFQAy11G96xdST30LJg%26e%3D1784560670%26fl%3D%26r%3D854FD5A4-91AF-4E22-AC5E-00EEAB2E7E5E-1%26k%3D%24%7Buk%7D%26ckc%3Dcom.apple.largeattachment%26ckz%3D5A5206F4-62FD-4130-A81B-FABB97B504D9%26p%3D185%26s%3DuLR4ym5EbF8RKzOKAH1E4HY3ZwY&uk=V1KLpGoI9RNWlkB99pc4Hg&f=%E5%BF%83%E5%A6%82-%E6%B5%8B%E8%AF%95%E7%89%88-5.3.3-mac-arm.dmg&sz=208422182>
+
+## First-Time Setup / 首次设置
+
+For most users, the best order is:
+
+1. Open `Settings`
+2. Go to `AI Sources`
+3. Add a cloud AI source first
+4. Download a local AI model
+5. Return to `AI Sources`
+6. Choose both a default cloud source and a default local source
+
+对大多数用户来说，最合适的顺序是：
+
+1. 打开 `设置`
+2. 进入 `AI配置`
+3. 先添加一个云端 AI 来源
+4. 下载一个本地 AI 模型
+5. 回到 `AI配置`
+6. 把默认云端来源和默认本地来源都设置好
+
+## Step 1: Add a Cloud AI Source / 第一步：添加云端 AI 来源
+
+- 打开 `设置 -> AI配置`
+- 点击 `添加来源`
+- 选择 `云端`
+- 选择服务商，例如 `OpenAI` 或 `DeepSeek`
+- 把你的 API key 粘贴到 `API Key` 栏
+- 检查 `Base URL` 和模型是否正确
+- 点击 `测试连接`
+- 测试通过后，再点击 `保存`
+
+## Step 2: Download a Local AI Model / 第二步：下载本地 AI 模型
+
+- 打开 `设置 -> 本地AI管理`
+- 浏览当前可用的本地模型
+- 根据自己的需求选择一个模型
+- 点击 `下载`
+- 等待模型下载完成
+
+## Step 3: Choose Default Sources / 第三步：选择默认来源
+
+- 回到 `设置 -> AI配置`
+- 先选一个 `默认云端来源`
+- 再选一个 `默认本地来源`
+
+## Speech Recognition Model Recommendation / 语音识别模型建议
+
+- `Whisper Medium`：如果你更重视识别质量，优先推荐
+- `Whisper Small`：对很多用户来说是比较平衡的选择
+- `Whisper Tiny`：只适合更在意速度、对准确率要求没那么高的用户
