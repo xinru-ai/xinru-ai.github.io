@@ -488,15 +488,7 @@ code {
 }
 
 .step-card {
-  display: grid;
-  grid-template-columns: 84px 1fr;
-  gap: 20px;
-}
-
-.step-index {
-  font-size: 30px;
-  font-weight: 800;
-  color: var(--primary);
+  display: block;
 }
 
 .step-note {
