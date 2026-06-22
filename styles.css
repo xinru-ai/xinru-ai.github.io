@@ -93,9 +93,29 @@ body::before {
   .site-footer {
     background: transparent;
   }
+
+  code {
+    background: rgba(96, 165, 250, 0.16);
+    border-color: rgba(147, 197, 253, 0.28);
+    color: #dbeafe;
+  }
 }
 
 a {
+  color: var(--primary-strong);
+  text-decoration: underline;
+  text-decoration-color: rgba(61, 141, 255, 0.4);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+.brand,
+.nav-link,
+.button,
+.footer-links a {
   color: inherit;
   text-decoration: none;
 }
@@ -564,7 +584,17 @@ code {
   padding: 16px 18px 18px;
   color: var(--text-soft);
   font-size: 0.98rem;
-  line-height: 1.6;
+  line-height: 1.9;
+}
+
+.guide-shot figcaption strong {
+  color: var(--text);
+}
+
+.guide-shot figcaption br {
+  display: block;
+  content: "";
+  margin-top: 8px;
 }
 
 
