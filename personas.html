@@ -19,26 +19,9 @@
         </div>
       </div>
 
-      <article class="panel persona-overview-card personas-intro-grid">
-        <div class="persona-intro-copy">
-          <p>我们提供 8 个公开内置人设，标题本身保持固定，方便你在教程、工作流和不同页面之间快速对上号；但每个人设背后的 <code>prompt</code>，你都可以按自己的习惯做小幅调整。</p>
-
-          <h2>这 8 个内置人设怎么理解</h2>
-          <div class="mini-list">
-            <div>人设标题由我们提供，尽量保持稳定，方便你一眼分清它们各自负责什么工作。</div>
-            <div>真正可以灵活调整的是每个人设背后的 <code>prompt</code>；你可以小改语气、规则、目标语言或输出格式。</div>
-            <div>每个人设都有自己的颜色，小气泡和界面提示都会跟着这个颜色走；下面这些卡片配色，也是在对应这套颜色管理。</div>
-          </div>
-
-          <h2>你可以自己控制什么</h2>
-          <div class="mini-list">
-            <div>每个模式都可以单独指定使用本地 AI 或云端 AI。</div>
-            <div><code>Temperature</code> 越高，回答越活；越低，回答越稳。</div>
-            <div><code>Max Tokens</code> 决定它一次最多能输出多长内容。</div>
-            <div>除了 8 个公开内置人设，你还可以继续建立 4 个完全可自定义的模式，做成你自己的工作流。</div>
-          </div>
-        </div>
-      </article>
+      <div class="section-heading">
+        <p class="section-desc">我们提供 8 个公开内置人设，标题本身保持固定，方便你在教程、工作流和不同页面之间快速对上号；但每个人设背后的 <code>prompt</code>，你都可以按自己的习惯做小幅调整。</p>
+      </div>
 
       <div class="section-heading">
         <h2 class="section-title">8 个公开内置人设</h2>
@@ -111,14 +94,35 @@
         </article>
       </div>
 
-      <article class="panel persona-overview-card" style="margin-top: var(--space-2xl);">
-        <h2>4 个可自定义模式</h2>
-        <div class="mini-list">
-          <div>除了固定的 8 个公开内置人设，你还可以继续建立 4 个完全可自定义的模式，按自己的工作流自由设计。</div>
-          <div>你可以决定它们分别用哪一个 AI、本地还是云端、温度高低、最大输出长度，以及 prompt 的整体风格。</div>
-          <div>也就是说，心如不是把一套固定规则塞给你，而是给你一个可以自己掌控、自己长出来的 AI 工作台。</div>
+      <div class="panel" style="margin-top: var(--space-2xl);">
+        <div class="guide-shot-grid">
+          <figure class="guide-shot">
+            <img src="./assets/screenshots/personas-overview.jpg" alt="人设页面，展示 8 个固定人设与 4 个自定义模式" />
+            <figcaption>
+              <p><strong>如何理解人设卡片？</strong></p>
+              <p>人设是心如的核心逻辑。每一次语音录入，都在和某个具体的人设对话——它决定了 AI 以什么方式理解你、处理你说的话。</p>
+              <p>每个人设都有自己的专属颜色。当小气泡出现时，你可以通过颜色立刻知道当前是哪个人设在工作、在跟谁说话。</p>
+              <p>在主页，点击话筒右侧的下拉菜单，随时切换人设；也可以在对话过程中直接切换，不需要退出。</p>
+              <p>点击任意一张人设卡片，卡片会展开进入编辑状态。人设标题由我们提供，保持稳定，方便你一眼分清各自的分工；真正可以灵活调整的是背后的 <code>prompt</code>。改坏了也没关系，每个人设都有 <code>恢复默认</code> 按钮，一键还原。</p>
+            </figcaption>
+          </figure>
+          <figure class="guide-shot">
+            <img src="./assets/screenshots/personas-edit.jpg" alt="点击人设卡片后展开的编辑面板" />
+            <figcaption>
+              <p><strong>你可以自己控制什么？</strong></p>
+              <p><strong>AI 来源：</strong>每个人设可以单独绑定一个 AI，本地或云端，你来选。</p>
+              <p><strong>Temperature：</strong>控制回答的活跃度，数值越高越有创意，越低越稳定。</p>
+              <p><strong>Max Tokens：</strong>决定单次最大输出长度。</p>
+              <p><strong>Prompt：</strong>可以直接编辑每个人设背后的指令内容。</p>
+            </figcaption>
+          </figure>
         </div>
-      </article>
+      </div>
+
+      <div class="section-heading" style="margin-top: var(--space-2xl);">
+        <h2 class="section-title">4 个可自定义模式</h2>
+        <p class="section-desc">除了固定的 8 个公开内置人设，你还可以继续建立 4 个完全可自定义的模式，按自己的工作流自由设计。你可以决定它们分别用哪一个 AI、本地还是云端、温度高低、最大输出长度，以及 prompt 的整体风格。心如不是把一套固定规则塞给你，而是给你一个可以自己掌控、自己长出来的 AI 工作台。</p>
+      </div>
     </main>
     <footer class="site-footer"><div class="footer-links"><a href="./index.html">首页</a><a href="./download.html">下载</a><a href="./guide.html">新手教程</a><a href="./features.html">功能</a><a href="./personas.html">人设</a><a href="./about.html">关于</a><a href="./faq.html">FAQ</a></div></footer>
     <script src="./script.js"></script>
