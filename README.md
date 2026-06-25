@@ -12,8 +12,8 @@ Official GitHub Pages site for Xinru.
 - About / 关于: `about.html`
 - FAQ: `faq.html`
 
-- Website / 网站：[<https://swaywu1968.github.io>](https://xinru-ai.github.io)
-
+- Website / 网站：https://xinru-ai.github.io
+- download / 下载： https://github.com/xinru-ai/xinru-ai.github.io/releases/tag/v5.3.6
 ## First-Time Setup / 首次设置
 
 For most users, the best order is:
