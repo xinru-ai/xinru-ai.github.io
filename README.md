@@ -13,7 +13,9 @@ Official GitHub Pages site for Xinru.
 - FAQ: `faq.html`
 
 - Website / 网站：https://xinru-ai.github.io
-- download / 下载： https://github.com/xinru-ai/xinru-ai.github.io/releases/tag/v5.3.6
+- download / 下载：
+  - GitHub / 国际： https://github.com/xinru-ai/xinru-ai.github.io/releases/tag/v5.3.10
+  - Gitee / 中国： https://gitee.com/xinru-ai/xinru-ai.github.io/releases/tag/v5.3.10
 ## First-Time Setup / 首次设置
 
 For most users, the best order is:

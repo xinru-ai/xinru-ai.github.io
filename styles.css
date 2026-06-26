@@ -456,6 +456,12 @@ code {
   justify-content: space-between;
   gap: 24px;
 }
+.download-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
 .download-meta { display: grid; gap: 14px; justify-items: start; }
 
 /* 状态标签 */
